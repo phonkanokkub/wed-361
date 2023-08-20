@@ -1,0 +1,66 @@
+/* กำหนด CSS Grid Container */
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  box-sizing: border-box;
+  margin: 0px -10px;
+}
+
+.square {
+  width: 350px;
+  height: 350px;
+  margin: 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.box {
+  background-color: #f59610;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+}
+.header-box, .footer-box {
+  background-color: blue;
+  padding: 50px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 1px solid #000;
+}
+
+@media (min-width: 576px) {
+  .box {
+    flex: 0 1 calc(100% - 10px); 
+  }
+}
+@media (min-width: 768px) {
+  .box {
+    flex: 0 1 calc(50% - 10px); 
+  }
+}
+@media (min-width: 992px) {
+  .box {
+    flex: 0 1 calc(33.33% - 10px); 
+  }
+}
+@media (min-width: 1200px) {
+  .box {
+    flex: 0 1 calc(33.33% - 10px); 
+  }
+}
+@media (min-width: 1400px) {
+  .box {
+    flex: 0 1 calc(33.33% - 10px); 
+  }
+}

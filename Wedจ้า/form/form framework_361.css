@@ -1,0 +1,45 @@
+/*Document*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box {
+    flex: 1;
+    min-width: calc(50%);
+    padding: 5px;
+    text-align:left;
+    border: 1px solid #000;
+    background-color: transparent;
+    width: 150px;
+    height: 200px;
+    resize: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(224, 224, 232, 0.9);
+}
+.row {
+    display: flex;
+    flex-basis: 97%; /* ควบคุมเส้นแบ่งระหว่างแถว */
+}
+.กล่อง {
+    font-size: 32px;
+    padding: 10px; /* เพิ่มการเว้นวรรคด้านในของกล่อง */
+    margin: 10px; /* เพิ่มการเว้นระยะห่างด้านนอกของกล่อง */
+}
+
+blockquote {
+    border-left: 2px solid #ccc; /* กำหนดเส้นขอบซ้าย */
+    padding-left: 10px; /* กำหนดระยะห่างของข้อความจากเส้นขอบ */
+    margin: 10px 0; /* กำหนดระยะห่างระหว่าง blockquote ที่ต่างกัน */
+    line-height: 1.5; /* กำหนดความสูงของบรรทัดให้มีระยะห่าง */
+  }
+
+h1 {
+    font-size: 40px; 
+    position: relative;
+    top: -100px; 
+}
+p {
+    font-size: 16px; 
+  }
